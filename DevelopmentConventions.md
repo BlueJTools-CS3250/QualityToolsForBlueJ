@@ -31,12 +31,12 @@ Here is the basic GitHub workflow for this project:
   - [Verify quality](#Quality-Assessment), including adherence to [conventions](#Coding-Convention-Guide).
   - Build, run, and test a distribution build.
 - Submit a pull request (PR) from your branch.
-- One or more reviewers will review the request and may make comments in the PR conversation. 
+- One or more reviewers will review the request and may make comments in the PR conversation.
   - Participate in the conversation associated with the PR, updating your branch as appropriate.
 - After reviewer approval, someone with commit access will merge the PR.
 
 
-_____ 
+_____
 ## Agile Principles
 
 ### Working Software
@@ -50,7 +50,7 @@ For example, no merge results in a non-buildable state or a buildable product th
 Architectural elements, tests, and implementation code match requirements associated with the current and previous versions of the product.
 
 For example, tests and code for features identified for future versions are excluded from the project code base.
- 
+
 ### Behavior-Driven Development
 #### All code is associated with an explicit requirement specification (User Story).
 
@@ -115,7 +115,7 @@ Framework for unit-testing Java code
 #### Test Coverage Assessment
 ##### ✔ [JaCoCo](https://www.eclemma.org/jacoco/)
 Determines code coverage of Java tests
- 
+
 #### Source Code Shortcoming Identification
 ##### ✔ [CheckStyle](https://checkstyle.sourceforge.io/)
 Identifies violations of coding conventions
@@ -140,8 +140,8 @@ Code coverage analysis
 Automated web accessibility testing
 
 
-_____ 
-## Repository Structure 
+_____
+## Repository Structure
 
 ```
 .
@@ -206,7 +206,7 @@ GitHub Pages Website
 
 .
 ├── ...
-├── docs                    # GitHub Pages website content	
+├── docs                    # GitHub Pages website content
 │   ├── README.md           # Project overview
 │   ├── _config.yml         # Jekyll configuration
 │   └── ...                 # etc.
